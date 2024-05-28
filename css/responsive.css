@@ -47,7 +47,9 @@
 }
 
 @media (max-width: 767px) {
-
+  swiper-slide img{
+    width: 100%;
+  }
   .slider_bg_box img {
     -o-object-position: top center;
     object-position: top center;
@@ -84,12 +86,18 @@
 }
 
 @media (max-width: 576px) {
+  swiper-slide img{
+    width: 100%;
+  }
   .heading_container h2 {
     font-size: 2.2rem;
   }
 }
 
 @media (max-width: 480px) {
+  swiper-slide img{
+    width: 100%;
+  }
   .heading_container h2 {
     font-size: 2rem;
   }
@@ -107,7 +115,11 @@
   }
 }
 
-@media (max-width: 420px) {}
+@media (max-width: 420px) {
+  swiper-slide img{
+    width: 100%;
+  }
+}
 
 @media (max-width: 376px) {
   .slider_section .detail-box h1 {
